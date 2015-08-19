@@ -21,7 +21,18 @@ body {
 	padding: 0px 30px 20px 40px;
 }
 
+/* Top Menu */
+.dnpb_topmenu li a, .dnpb_langmenu li a {
+	padding: 5px 15px;
+	color:#453b31;
+	text-decoration: underline;
+	font-size:12px;
+}
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #FFF;
+    background-color: #cfc1ba;
+}
 
 /* Search Button */
 .dnpb_btn_search {
