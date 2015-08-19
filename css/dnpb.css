@@ -1,0 +1,30 @@
+body {
+     margin: 0;
+	background-color: #f0e5da;
+    background-image: url("../img/bgnd.jpg");
+	background-repeat: repeat;
+	 }
+
+/*
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /- Set the fixed height of the footer here -/
+  height: 60px;
+}
+*/
+
+
+.dnpb_block {
+	outline: 1px solid #b7afa4;
+	padding: 0px 30px 20px 40px;
+}
+
+
+
+/* Search Button */
+.dnpb_btn_search {
+	background: none;
+	border:none;
+}
