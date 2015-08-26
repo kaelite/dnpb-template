@@ -31,8 +31,14 @@ a:hover {
 
 .dnpb_block {
 	outline: 1px solid #b7afa4;
-	padding: 0px 30px 20px 40px;
+	padding: 20px 30px 20px 20px;
+	margin-bottom:20px;
 }
+
+.dnpb_block > h1, .dnpb_block > h2, .dnpb_block > h3 {
+	display:inline;
+}
+
 .dnpb_border {
 	outline: 1px solid #b7afa4;
 }
@@ -54,6 +60,10 @@ a:hover {
     background-color: #cfc1ba;
 }
 
+img.dnpb_portrait {
+	margin:0 0 0 15px;
+}
+
 /* Search Button */
 .dnpb_btn_search {
 	background: none;
@@ -69,6 +79,14 @@ a:hover {
 	font-size:14px;
 }
 
-.dnpb-navbar{
+.dnpb-navbar {
     border-color: #f9f4ef;
+	background-image: linear-gradient(to bottom, #FEFDFC 0px, #F3EBE1 100%);
+}
+
+.dnpb-navbar .dnpb_mainmenu > li.active > a{
+	background-color: #D4C8C3;
+	background-image: none;
+	color:white;
+	text-decoration:none;
 }
