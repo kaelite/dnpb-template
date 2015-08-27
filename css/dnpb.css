@@ -64,6 +64,20 @@ img.dnpb_portrait {
 	margin:0 0 0 15px;
 }
 
+/* Address */
+.dnpb_address {
+	padding:10px 10px 10px 20px;
+}
+
+.dnpb_address address {
+	font-size:11px;
+	margin-bottom:0px;
+}
+
+.dnpb_address a,.dnpb_address a:visited, .dnpb_address a:hover {
+	color:#461913;
+}
+
 /* Search Button */
 .dnpb_btn_search {
 	background: none;
