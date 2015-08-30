@@ -29,6 +29,35 @@ a:hover {
 	font-decoration: none;
 }
 
+/* Header */
+.dnpb_title {
+	color: #5b3e3c;
+	font-family: "Sylfaen",Times;
+	font-size:15px;
+	padding-top:3px;
+}
+
+.dnpb_title p{
+	font-weight:bold;
+	margin-top:-2px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+.dnpb_title center > p > small {
+	font-size:10px;
+}
+
+.dnpb_title img {
+	margin-top:-13px;
+}
+
+.dnpb_title small {
+	font-size:13px;
+	letter-spacing:-1.1px;
+	line-height:1;
+}
+
 .dnpb_block {
 	outline: 1px solid #b7afa4;
 	padding: 20px 30px 20px 20px;
@@ -49,6 +78,7 @@ a:hover {
 	color:#453b31;
 	text-decoration: underline;
 	font-size:12px;
+	font-family: "Sylfaen",Times;
 }
 
 .dnpb_langmenu {
