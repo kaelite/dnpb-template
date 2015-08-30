@@ -3,6 +3,8 @@ body {
 	background-color: #f0e5da;
     background-image: url("../img/bgnd.jpg");
 	background-repeat: repeat;
+	color:#564d44;
+	font-family: "Sylfaen",Times;
 	 }
 
 /*
@@ -30,6 +32,12 @@ a:hover {
 }
 
 /* Header */
+header .nav > li > a:focus, header .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #d0c3bc;
+	color:white;
+}
+
 .dnpb_title {
 	color: #5b3e3c;
 	font-family: "Sylfaen",Times;
@@ -65,7 +73,13 @@ a:hover {
 }
 
 .dnpb_block > h1, .dnpb_block > h2, .dnpb_block > h3 {
-	display:inline;
+	margin:0px;
+	font-family: "Sylfaen",Times;
+}
+
+ .dnpb_block > h3 {
+ 	margin: 0 0 5px 0;
+	font-size:25px;	
 }
 
 .dnpb_border {
