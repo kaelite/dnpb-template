@@ -107,13 +107,22 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 	margin-bottom:10px;
 }
 
+.dnpb_socials {
+	color:white;
+	padding:0px;
+}
+
+.dnpb_socials  .azm-size-32 {
+	margin:0px;
+}
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
     color: #FFF;
     background-color: #cfc1ba;
 }
 
 img.dnpb_portrait {
-	margin:0 0 0 15px;
+	margin:0 0 20px 20px;
 }
 
 /* Address */
@@ -138,7 +147,11 @@ img.dnpb_portrait {
 
 
 /* Main Menu */
-.navbar-nav > li > a {padding-top:7px !important; padding-bottom:7px !important;}
+.navbar-nav > li > a {
+	padding-top:7px !important; 
+	padding-bottom:7px !important;
+	text-decoration: none;
+}
 .navbar {min-height:35px !important}
 
 .dnpb_mainmenu {
