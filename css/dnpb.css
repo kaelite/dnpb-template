@@ -29,7 +29,7 @@ margin:3px -17px 0 0;
 header .form-control {
 	height:28px;
 }
-
+/*
 a, a:hover, a:visited {
 	color:#453b31;
 	text-decoration: underline;
@@ -37,6 +37,17 @@ a, a:hover, a:visited {
 
 a:hover {
 	font-decoration: none;
+}*/
+a, a:hover, a:visited {
+	color:#663300;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+    cursor: pointer;
+    cursor: hand;	
 }
 
 /* Header */
@@ -76,6 +87,10 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 	font-size:13px;
 	letter-spacing:-1.1px;
 	line-height:1;
+}
+
+.dnpb_slogan {
+	padding-top:8px;
 }
 
 .dnpb_block {
@@ -126,7 +141,7 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 }
 
 img.dnpb_portrait {
-	margin:0 0 20px 20px;
+	margin:8px 0 20px 20px;
 }
 
 /* Address */
