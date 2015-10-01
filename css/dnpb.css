@@ -38,6 +38,12 @@ a, a:hover, a:visited {
 a:hover {
 	font-decoration: none;
 }*/
+
+.dnpb_block h3  a {
+	color:#564D44;
+}
+
+
 a, a:hover, a:visited {
 	color:#663300;
 }
@@ -62,6 +68,9 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 	color:white;
 }
 
+.dnpb_date {
+	color:#663300;
+}
 .dnpb_title {
 	color: #5b3e3c;
 	font-family: "Sylfaen",Times;
