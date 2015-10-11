@@ -75,7 +75,7 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 	color: #5b3e3c;
 	font-family: "Sylfaen",Times;
 	font-size:16px;
-	padding-top:3px;
+	padding-top:0px;
 	line-height:1.3;
 
 }
@@ -128,6 +128,10 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 }
 
 /* Top Menu */
+.dnpb_topmenu {
+	display: inline-block;
+}
+
 .dnpb_topmenu li a, .dnpb_langmenu li a {
 	padding: 5px 15px;
 	color:#453b31;
@@ -219,3 +223,10 @@ img.dnpb_portrait {
 	padding-bottom:0px;
 }
 
+.dnpb_block .pager {
+	margin:0px;
+}
+
+.dnpb_block .media-body p{
+    line-height: 1.2;
+}
