@@ -39,6 +39,10 @@ a:hover {
 	font-decoration: none;
 }*/
 
+p {
+	margin-bottom:5px;
+}
+
 .dnpb_block h3  a {
 	color:#564D44;
 }
@@ -227,6 +231,13 @@ img.dnpb_portrait {
 	margin:0px;
 }
 
-.dnpb_block .media-body p{
+/*.dnpb_block .dnpb_news .media-body p{
+	line-height: 1.42857;
+}*/
+.dnpb_block not(.dnpb_news) .media-body p{
     line-height: 1.2;
+}
+
+.media .pull-left img {
+	margin-top: 3px;
 }
