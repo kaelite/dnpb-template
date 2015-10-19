@@ -17,6 +17,9 @@ body {
 }
 */
 
+.dnpb_block .media {
+	margin-bottom: 15px;
+}
 
 header {
 	margin-top:20px;
@@ -248,11 +251,12 @@ div.dnpb-portrait-lg {
 	margin:0px;
 }
 
-/*.dnpb_block .dnpb_news .media-body p{
-	line-height: 1.42857;
-}*/
-.dnpb_block not(.dnpb_news) .media-body p{
+
+.dnpb_block .media-body p{
     line-height: 1.2;
+}
+.dnpb_block.dnpb_news .media-body p{
+	line-height: 1.42857;
 }
 
 .media .pull-left img {
