@@ -177,14 +177,14 @@ div.dnpb-portrait {
 	height:200px;
 	background-image: url("../img/s_portrait.jpg");
 	background-repeat: no-repeat;
-	background-position: 20px 12px;
+	background-position: 20px 15px;
 }
 div.dnpb-portrait-lg {
 	width:100%;
 	height:200px;
 	background-image: url("../img/s_portrait.jpg");
 	background-repeat: no-repeat;
-	background-position: 35px 12px;
+	background-position: 35px 15px;
 }
 
 /* Address */
