@@ -31,7 +31,7 @@ margin:3px -20px 0 0;
 
 header .form-control {
 	height:28px;
-	padding:6px 6px;
+	padding:8px 6px 4px 6px;
 }
 /*
 a, a:hover, a:visited {
@@ -85,7 +85,7 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 	font-size:16px;
 	padding-top:0px;
 	line-height:1.3;
-
+	margin-bottom:-2px;
 }
 
 .dnpb_title p{
@@ -141,7 +141,7 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 }
 
 .dnpb_topmenu li a, .dnpb_langmenu li a {
-	padding: 5px 15px;
+	padding: 0px 15px;
 	color:#453b31;
 	text-decoration: underline;
 	font-size:12px;
@@ -155,10 +155,19 @@ header .nav > li > a:focus, header .nav > li > a:hover {
 .dnpb_socials {
 	color:white;
 	padding:0px;
+	float:right;
+}
+.dnpb_socials div {
+	margin-left:-14px;
+	padding-right:14px;
+}
+.dnpb_socials div a {
+	float:right;
+	margin-left:30px;
 }
 
 .dnpb_socials  .azm-size-32 {
-	margin:0px;
+	margin:-8px 0 0 3px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
@@ -177,14 +186,14 @@ div.dnpb-portrait {
 	height:200px;
 	background-image: url("../img/s_portrait.jpg");
 	background-repeat: no-repeat;
-	background-position: 20px 15px;
+	background-position: 20px 4px;
 }
 div.dnpb-portrait-lg {
 	width:100%;
 	height:200px;
 	background-image: url("../img/s_portrait.jpg");
 	background-repeat: no-repeat;
-	background-position: 35px 15px;
+	background-position: 35px 5px;
 }
 
 /* Address */
@@ -193,7 +202,7 @@ div.dnpb-portrait-lg {
 }
 
 .dnpb_address address {
-	font-size:11px;
+	font-size:12px;
 	margin-bottom:0px;
 }
 
