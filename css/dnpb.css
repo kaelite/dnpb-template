@@ -186,14 +186,14 @@ div.dnpb-portrait {
 	height:200px;
 	background-image: url("../img/s_portrait.jpg");
 	background-repeat: no-repeat;
-	background-position: 20px 4px;
+	background-position: 20px 0px;
 }
 div.dnpb-portrait-lg {
 	width:100%;
 	height:200px;
 	background-image: url("../img/s_portrait.jpg");
 	background-repeat: no-repeat;
-	background-position: 35px 5px;
+	background-position: 35px 0px;
 }
 
 /* Address */
@@ -235,6 +235,7 @@ div.dnpb-portrait-lg {
 .dnpb-navbar {
     border-color: #f9f4ef;
 	background-image: linear-gradient(to bottom, #FEFDFC 0px, #F3EBE1 100%);
+	margin-bottom: 0px;
 }
 
 .dnpb-navbar > div {
@@ -251,6 +252,14 @@ div.dnpb-portrait-lg {
 
 .dnpb-navbar .dnpb_mainmenu > li > a{
 	color:#5b3e3c;
+}
+
+.dnpb-breadcrumbs {
+	padding:8px 0 0 0;
+	font-size:12px;
+}
+.dnpb-breadcrumbs a {
+color: #564D44;
 }
 
 .dnpb_partners {
@@ -271,4 +280,18 @@ div.dnpb-portrait-lg {
 
 .media .pull-left img {
 	margin-top: 3px;
+}
+
+.dnpb-pagenav a {
+	font-size:20px;
+}
+
+#dnpb-top-link-block {
+	width:100%
+	overflow:hidden;
+	height:30px;
+}
+#dnpb-top-link-block span {
+	float:right;
+	display:block;  
 }
