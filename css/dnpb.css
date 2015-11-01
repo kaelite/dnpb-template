@@ -282,6 +282,44 @@ color: #564D44;
 	margin-top: 3px;
 }
 
+ul.dnpb-pagenav {
+	border-top:1px solid #9d7b58;
+	border-bottom:1px solid #9d7b58;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:4px 0px 4px 14px;
+	list-style:outside none none;
+	font-family: "Sylfaen",Times;
+	font-weight: 100;
+	color:#663300;
+}
+
+.dnpb-pagenav > li > a{
+	display:block;
+	position:relative;
+	text-indent:0.8em;
+/*	text-transform:uppercase;
+	font-size:10px;*/
+}
+/*
+.dnpb-pagenav > li > a::first-letter {
+	font-size:14px;
+}*/
+
+.dnpb-pagenav > li > a::before {
+	content: "";
+	background-image: url("../img/page/pagenav-downarrow.png");
+	background-repeat: no-repeat;
+	font-size: 36px;
+	height: 1em;
+	width: 1em;
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	margin: -0.23em 0px 0px;
+
+}
+
 .dnpb-pagenav a {
 	font-size:20px;
 }
@@ -294,4 +332,9 @@ color: #564D44;
 #dnpb-top-link-block span {
 	float:right;
 	display:block;  
+}
+
+#dnpb-top-link-block a {
+	padding:7px;
+	background: rgba(102, 51, 0, .2);
 }

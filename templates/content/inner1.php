@@ -5,7 +5,6 @@
 		<ul class="dnpb-pagenav">
 <li><a href="#">Заголовок розділу 1 </a></li>
 <li><a href="#">Заголовок розділу 2 </a></li>
-<li><a href="#">..</a></li>
 <li><a href="#">Заголовок розділу N</a></li>
 		</ul>
 	</div>
