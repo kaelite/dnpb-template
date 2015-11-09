@@ -8,7 +8,12 @@ if(!empty($_GET["page"]))
 		case "inner1":
 			include("content/inner1.php");
 			break;
-
+		case "announceslist":
+			include("content/announceslist.php");
+			break;
+		case "mediapage":
+			include("content/mediapage.php");
+			break;
 		default:
 			include("content/homepage.php");
 			break;
